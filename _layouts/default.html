@@ -31,6 +31,25 @@ layout: table_wrappers
           {% if page.has_toc != false %}
             {% include components/children_nav.html %}
           {% endif %}
+
+          {% if page.has_children == false %}
+          <script src="https://giscus.app/client.js"
+                  data-repo="AengChoon/AengChoon.github.io"
+                  data-repo-id="R_kgDOMo2yPA"
+                  data-category="General"
+                  data-category-id="DIC_kwDOMo2yPM4Ch9LO"
+                  data-mapping="title"
+                  data-strict="0"
+                  data-reactions-enabled="1"
+                  data-emit-metadata="0"
+                  data-input-position="bottom"
+                  data-theme="light"
+                  data-lang="ko"
+                  data-loading="lazy"
+                  crossorigin="anonymous"
+                  async>
+          </script>
+          {% endif %}
         </main>
         {% include components/footer.html %}
       </div>
