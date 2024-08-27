@@ -1,5 +1,6 @@
 ---
 title: Customization
+has_children: false
 nav_order: 6
 ---
 
